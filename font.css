@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto', sans-serif; 
+}
+
+.inknut-antiqua-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inknut-antiqua-regular {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inknut-antiqua-medium {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inknut-antiqua-semibold {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inknut-antiqua-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inknut-antiqua-extrabold {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inknut-antiqua-black {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 900;
+  font-style: normal;
+}
