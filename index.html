@@ -250,6 +250,57 @@
           gap: 20px;
         }
       }
+      @media (max-width: 460px) {
+        body{
+          padding: 16px;
+        }
+        .hero-section,
+        .ticker-section {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .ticker-section .right{
+          gap: 2rem;
+        }
+        .ticker-section .right .right-headings{
+          justify-content: center;
+          align-items: center;
+        }
+        .ticker-section .right-headings h1{
+          text-align: center;
+          font-size: 1rem;
+        }
+        .ticker-section .right-headings h2{
+          text-align: center;
+          font-size: 1.2rem;
+        }
+
+        .hero-section h1{
+          font-size: 2rem;
+          text-align: center;
+        }
+        .hero-section p {
+          text-align: center;
+          font-size: 1rem;
+          width: 100%;
+        }
+        .tokenomics-card p,h2{
+          font-size: 1rem;
+        }
+
+        .tokenomics-container {
+          flex-direction: column;
+          gap: 20px;
+        }
+        .ticker-section .right{
+          padding: 0;
+        }
+        .community-section .below .social-icons{
+          padding: 30px;
+          justify-content: center;
+        }
+      }
       @keyframes glowPulse {
         from {
           text-shadow: 0 0 10px #5df5f5, 0 0 20px #5df5f5, 0 0 30px #5df5f5;
